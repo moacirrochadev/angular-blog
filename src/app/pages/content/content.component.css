@@ -1,0 +1,51 @@
+.container__content {
+  width: 100vw;
+  height: 100%;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.divisor {
+  width: 1080px;
+  margin-top: 15px;
+}
+
+.content__cover > img {
+  border: 3px solid grey;
+  border-radius: 10px;
+  width: 500px;
+  min-width: 500px;
+  height: 300px;
+  margin-top: 15px;
+}
+
+.content__title {
+  margin-top: 15px;
+}
+
+.content__description > p {
+  text-align: justify;
+  margin: 15px;
+  color: grey;
+}
+
+.botao__voltar {
+  margin-top: 20px;
+  font-size: 30px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+/* @media screen and (min-width: 600px) {
+  .content {
+      max-width: 600px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+  }
+} */
